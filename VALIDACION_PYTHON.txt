@@ -1,0 +1,16 @@
+VALIDACIÓN DE PYTHON — 30/10/2026
+
+Pruebas ejecutadas en carpeta descomprimida:
+- Compilación de analisis.py, crear_dashboard.py y crear_informe.py: OK.
+- Ejecución analisis.py: OK. 60.000 filas y 24 columnas.
+- Ejecución crear_dashboard.py: OK.
+- Ejecución crear_informe.py: OK.
+- Dashboard: cinco hojas, 2 validaciones de datos y 82 celdas con fórmulas.
+- Informe .docx generado y no vacío.
+
+Corrección: analisis.py lee archivo_original.xlsx desde su propia carpeta.
+Dependencias: indicadas en requirements.txt.
+
+LÍMITE: No se ha probado interacción manual en Microsoft Excel de escritorio.
+Los tests inferenciales se realizan sobre datos simulados; sus p-valores
+no acreditan que existan diferencias poblacionales reales.
